@@ -1,0 +1,65 @@
+{
+  "editor.fontSize": 17,
+  "editor.fontFamily": "Input Mono",
+  "editor.lineHeight": 40,
+  "editor.letterSpacing": 0.8,
+  "editor.wordWrap": "on",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.minimap.enabled": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.parameterHints.enabled": true,
+  "git.enabled": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "window.zoomLevel": 2,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontWeightBold": "300",
+  "terminal.integrated.fontFamily": "IBM Plex Mono",
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescript": "tsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorCustomizations": {
+    "tab.border": "#20222c", // colour of the border between opened tabs
+    "tab.activeBackground": "#20222c", // backgroud colour of the active file tab
+    "tab.inactiveBackground": "#20222c", // bacground colour of inactive file tabs
+    "editorGroupHeader.tabsBackground": "#20222c", // background colour of the entire tab container that lives at the top
+    "editor.background": "#101010", // backgroud colour of the code editor
+    "sideBar.background": "#101010", // background colour of the sidebar
+    "editorIndentGuide.activeBackground": "#ffffff07", // colour of the indent guides
+    "editor.lineHighlightBackground": "#20222c", // border colour of the active line
+    "editorIndentGuide.background": "#ffffff07", // colour of the active line
+    "sideBarSectionHeader.background": "#191b22" // colour of the tabs in sidebar
+  },
+  "workbench.editor.enablePreview": false,
+  "editor.renderWhitespace": "none", // removes whitespace chars
+  "editor.hideCursorInOverviewRuler": true, // hides cursor mark in the overview ruler
+  "editor.folding": true, // removes the folding feature
+  "editor.glyphMargin": false, // removes the space used mainly for debugging indicators
+  "explorer.openEditors.visible": 0, // removes the open editors section at the top of the sidebar, you can see the opened files with ⌘ + ⌥ + Tab
+  "workbench.activityBar.visible": true, // removes the activity bar (the 4 icons at the left of the screen), so now you will have to open the explorer, git, debugger and extension with shortcuts or through the Command Palette
+  "workbench.statusBar.visible": true,
+  "editor.overviewRulerBorder": true,
+  "workbench.editor.showIcons": true, // removes icon from opened files in tabs
+  "editor.occurrencesHighlight": true,
+  "workbench.iconTheme": "vscode-great-icons",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "editor.minimap.size": "fill",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 4,
+  "workbench.colorTheme": "Popping and Locking Black Theme"
+}
